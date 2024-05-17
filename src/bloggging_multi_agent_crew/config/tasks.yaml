@@ -1,0 +1,25 @@
+research_content:
+  description: >
+    Conduct comprehensive research on the topic described below - {topic_details} and compile relevant information.
+    The research content collected by you will be used by the Writer to create the blog.
+    You also thrive to explore on code snippets, examples, and real-world applications to make the content more engaging and informative.
+  expected_output: >
+    The output should be the well-structured research content in bullet points.
+
+write_blog:
+  description: >
+    Write a blog based on the research content provided by the Researcher.
+    Ensure that the blog is engaging, informative, and well-structured.
+    You also thrive to explain the concept along with code snippets, examples, and real-world applications.
+    Save the blog and provide the title and content to the Reviewer for review and publishing.
+  expected_output: >
+    The output should contain - 
+    1. Title of the blog post.
+    2. Content of the blog post. The content should be of atleast 4 paragraphs.
+
+publish_blog:
+  description: >
+    Review the blog post for errors, inconsistencies, and overall quality.
+    And then publish the blog on the blogging platform and confirm successful publishing.
+  expected_output: >
+    The output should be the confirmation that the blog post has been successfully published.
