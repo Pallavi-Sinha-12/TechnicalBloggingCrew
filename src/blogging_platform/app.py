@@ -2,8 +2,6 @@ from fastapi import FastAPI
 from typing import List
 from models import Blog
 from database import db
-import requests
-import json
 
 app = FastAPI()
 
@@ -17,7 +15,3 @@ async def publish_blog(blog: Blog):
 @app.get("/blogs/", response_model=List[Blog])
 async def get_blogs():
     return db.get_blogs()
-
-@app.get("/health/")
-async def health():
-    return {"status": "ok"}

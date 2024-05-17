@@ -1,4 +1,3 @@
-import os
 from dotenv import load_dotenv
 import agentops
 from src.bloggging_multi_agent_crew.crew import BloggingCrew
