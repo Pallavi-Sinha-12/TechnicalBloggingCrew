@@ -20,5 +20,5 @@ def intermidate_logging(agent_output: Union[str, List[Tuple[Dict, str]], AgentFi
         print("Agent finished.")
         agent_log = f"Agent: {agent_name},\n Tool: {getattr(agent_output, 'tool', 'Unknown')},\n Tool Input: {getattr(agent_output, 'tool_input', 'Unknown')}, \n Log: {getattr(agent_output, 'log', 'Unknown')}, \n Timestamp: {current_time}"
         with open(log_file_path, 'a') as log_file:
-            log_file.write(json.dumps(agent_log))
+            log_file.write(agent_log)
             log_file.write("\n\n\n")
