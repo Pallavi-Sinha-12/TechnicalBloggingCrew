@@ -16,6 +16,7 @@ write_blog:
     The output should contain - 
     1. Title of the blog post.
     2. Content of the blog post. The content should be of atleast 4 paragraphs.
+    The output should be written in a markdown format.
 
 publish_blog:
   description: >
