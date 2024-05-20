@@ -5,7 +5,6 @@ from crewai_tools import SerperDevTool
 from .custom_tools.save_blog import save_blog
 from .custom_tools.publish_blog import publish_blog
 from .callbacks.intermediate_logging import intermidate_logging
-import os
 
 @CrewBase
 class BloggingCrew():
