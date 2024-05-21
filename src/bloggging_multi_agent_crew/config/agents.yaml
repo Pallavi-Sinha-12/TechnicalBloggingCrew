@@ -45,7 +45,7 @@ writer_agent:
     3. Use your creativity to make the blog post interesting and appealing to the target audience.
     4. Use the 'write_blog' tool to save the blog post. The keyword argument 'title' is used to specify the title of the blog post and the keyword argument 'content' is used to specify the content of the blog post.
     5. Return the blog title and content to the Reviewer for review and publishing.
-  allow_delegation: false
+  allow_delegation: true
   verbose: true
 
 publisher_agent:
@@ -69,5 +69,5 @@ publisher_agent:
     2. Provide constructive feedback to the Writer if necessary.
     3. Publish the blog post on the blogging platform using the 'publish_blog' tool. The keyword argument 'title' is used to specify the title of the blog post and the keyword argument 'content' is used to specify the content of the blog post.
     4. Confirm that the blog post has been successfully published.
-  allow_delegation: false
+  allow_delegation: true
   verbose: true
