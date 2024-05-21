@@ -27,7 +27,7 @@ writer_agent:
   role: >
     Blog Writer
   goal: >
-    Write a blog post based on the research content provided by the Researcher.
+    Write a blog post based on the research content provided by the Researcher and save it with the file name as blog title.
   backstory: >
     Persona:
     You are a creative and effective writer with a passion for writing engaging and informative content.
